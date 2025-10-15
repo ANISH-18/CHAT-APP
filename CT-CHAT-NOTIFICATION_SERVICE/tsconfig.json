@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@mail": [
+        "libs/mail/src"
+      ],
+      "@mail/*": [
+        "libs/mail/src/*"
+      ],
+      "@helpers": [
+        "libs/helpers/src"
+      ],
+      "@helpers/*": [
+        "libs/helpers/src/*"
+      ],
+      "@jwt_auth": [
+        "libs/jwt_auth/src"
+      ],
+      "@jwt_auth/*": [
+        "libs/jwt_auth/src/*"
+      ],
+      "@MongoDB/mongo-db": [
+        "libs/mongo-db/src"
+      ],
+      "@MongoDB/mongo-db/*": [
+        "libs/mongo-db/src/*"
+      ],
+      "@/fcm": [
+        "libs/fcm/src"
+      ],
+      "@/fcm/*": [
+        "libs/fcm/src/*"
+      ],
+      "@/rabbitmq": [
+        "libs/rabbitmq/src"
+      ],
+      "@/rabbitmq/*": [
+        "libs/rabbitmq/src/*"
+      ],
+      "n/auth-lib": [
+        "libs/auth-lib/src"
+      ],
+      "n/auth-lib/*": [
+        "libs/auth-lib/src/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@/database/(.*)": "<rootDir>/../libs/database/src/$1",
+    "@/database": "<rootDir>/../libs/database/src",
+    "@/mail/(.*)": "<rootDir>/../libs/mail/src/$1",
+    "@/mail": "<rootDir>/../libs/mail/src",
+    "@/helpers/(.*)": "<rootDir>/../libs/helpers/src/$1",
+    "@/helpers": "<rootDir>/../libs/helpers/src",
+    "@/jwt_auth/(.*)": "<rootDir>/../libs/jwt_auth/src/$1",
+    "@/jwt_auth": "<rootDir>/../libs/jwt_auth/src"
+  }
+}

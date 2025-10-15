@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@helpers": [
+        "libs/helpers/src"
+      ],
+      "@helpers/*": [
+        "libs/helpers/src/*"
+      ],
+      "@jwt_auth": [
+        "libs/jwt_auth/src"
+      ],
+      "@jwt_auth/*": [
+        "libs/jwt_auth/src/*"
+      ],
+      "@MongoDB": [
+        "libs/mongo_database/src"
+      ],
+      "@MongoDB/*": [
+        "libs/mongo_database/src/*"
+      ],
+      "@Events": [
+        "libs/events/src"
+      ],
+      "@Events/*": [
+        "libs/events/src/*"
+      ],
+      "@rabbitmq": [
+        "libs/rabbitmq/src"
+      ],
+      "@rabbitmq/*": [
+        "libs/rabbitmq/src/*"
+      ],
+      "redis-client/redis-client": [
+        "libs/redis-client/src"
+      ],
+      "redis-client/redis-client/*": [
+        "libs/redis-client/src/*"
+      ]
+    }
+  }
+}
